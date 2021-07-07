@@ -198,6 +198,66 @@
         color: #000;
         font-size: 21px;
     }
+    /* update css  */
+    .single_won {
+        max-width: 900px;
+        height: 134px;
+        margin-bottom: 61px;
+        position: relative;
+        background: #FFF;
+        z-index: 99999;
+        height: 184px;
+    }
+    .sin_text h5 {
+        font-size: 34px;
+    }
+    .sin_text h6 {
+        font-size: 26px;
+    }
+    .sin_text p {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .count h6 {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+        border: 15px solid #FFF;
+        background: #ed1c24;
+        color: #FFF;
+        font-size: 66px;
+        font-weight: 500;
+    }
+    .won_daily_t {
+        max-width: 593px;
+        height: 595px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+    .won_daily_t::after {
+        position: absolute;
+        content: "";
+        background: url(../images/sh.png) no-repeat scroll 0 0 / 100% 100%;
+        height: 86%;
+        width: 207px;
+        right: -99px;
+    }
+    .won_daily_t h3 {
+        font-size: 46px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    /* New update css  */
 }
 
 @media all and (max-width:1300px) {
@@ -294,6 +354,39 @@
     .event_area_design {
         padding: 18px 0;
         padding-bottom: 0;
+    }
+    /* custome css  */
+    .won_daily_full {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .single_won {
+        margin-left: 0 !important;
+        margin-bottom: 0;
+        position: relative;
+        background: #FFF;
+        z-index: 99999;
+        margin-top: 40px;
+    }
+    .won_daily_t::after {
+        background: url(../images/circle.png) no-repeat scroll 0 0 / 100% 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 103%;
+        z-index: -1;
+        transform: rotate(91deg);
+    }
+    .won_daily_t {
+        background: none !important;
+    }
+    .new_won_daily_area {
+        padding: 0;
+    }
+    .new_img1 {
+        padding: 26px 0;
     }
 }
 
@@ -523,6 +616,46 @@
     .top_event_con span {
         font-size: 17px;
     }
+    /* custome css  */
+    .won_daily_t {
+        max-width: 400px;
+        height: 400px;
+    }
+    .won_daily_t h3 {
+        font-size: 27px;
+    }
+    .count h6 {
+        width: 72px;
+        height: 72px;
+    }
+    .count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 13px;
+        margin-right: 18px;
+    }
+    .sin_text h6 {
+        font-size: 13px;
+    }
+    .sin_text h5 {
+        font-size: 20px;
+    }
+    .sin_text p {
+        color: #616161;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .daily_area_design {
+        padding: 17px 0;
+        padding-bottom: 36px;
+        padding-top: 49px;
+    }
+    .sin_text {
+        padding-right: 13px;
+    }
+    /* End custome css  */
 }
 
 @media all and (max-width:450px) {
@@ -561,5 +694,29 @@
     }
     .daily_title h6 span {
         width: 43px;
+    }
+    .won_daily_t {
+        max-width: 88%;
+        height: 235px;
+    }
+    .won_daily_t h3 {
+        font-size: 19px;
+    }
+    .single_won {
+        margin-left: 0 !important;
+        margin-bottom: 0;
+        position: relative;
+        background: #FFF;
+        z-index: 99999;
+        margin-top: 40px;
+        flex-direction: column;
+        justify-content: align-i;
+        align-items: center;
+        height: auto;
+        border-radius: 30px;
+    }
+    .sin_text {
+        padding: 13px;
+        text-align: center;
     }
 }

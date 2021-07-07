@@ -933,3 +933,186 @@ a:hover {
 
 
 /* End Copyright css  */
+
+
+/* New custome css design  */
+
+.new_won_daily_area {
+    padding: 50px 0;
+}
+
+.won_daily_full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.won_daily_t {
+    max-width: 550px;
+    height: 506px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.won_daily_t h3 {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.won_daily_full_item {
+    flex: 0 0 60%;
+}
+
+.single_won {
+    display: flex;
+    border: 5px solid #ed1c24;
+    border-radius: 96px;
+    max-width: 575px;
+    width: 100%;
+    margin-left: 50px;
+    box-shadow: 0 3px 24px rgba(0, 0, 0, 0.3);
+    height: 134px;
+    align-items: center;
+    margin-bottom: 61px;
+    position: relative;
+    background: #FFF;
+    z-index: 99999;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 13px;
+    margin-right: 33px;
+}
+
+.count h6 {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+    border: 10px solid #FFF;
+    background: #ed1c24;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.sin_text {}
+
+.sin_text h5 {
+    font-size: 23px;
+    font-weight: 800;
+    color: #ED1C24;
+    margin-bottom: 6px;
+}
+
+.sin_text h6 {
+    font-size: 16px;
+    color: #616161;
+    font-weight: 800;
+}
+
+.sin_text p {
+    color: #616161;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.single_won:last-child {
+    margin-bottom: 0;
+}
+
+.single_won:nth-child(2) {
+    margin-left: 98px;
+    border-color: #FF9D00;
+}
+
+.single_won:nth-child(2) .count h6 {
+    background: #FF9D00;
+}
+
+.single_won:nth-child(2) .sin_text h5 {
+    color: #FF9D00;
+}
+
+.single_won:nth-child(3) {
+    border-color: #1CBECB;
+}
+
+.single_won:nth-child(3) .count h6 {
+    background: #1CBECB;
+}
+
+.single_won:nth-child(3) .sin_text h5 {
+    color: #1CBECB;
+}
+
+.won_daily_t:after {
+    position: absolute;
+    content: "";
+    background: url(../images/sh.png) no-repeat scroll 0 0 / 100% 100%;
+    height: 81%;
+    width: 191px;
+    right: -102px;
+}
+
+.daily_title h1 span {
+    text-transform: uppercase;
+}
+
+.new_img1 {
+    padding: 100px 0;
+}
+
+.new_img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.daily_title2 h3 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.sin1:first-child .daily_img img {
+    width: 85%;
+}
+
+.daily_con a {
+    border: 2px solid #EA2C30;
+    height: 51px;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 270px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #F1F1F2;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+/* End New custome css design  */
