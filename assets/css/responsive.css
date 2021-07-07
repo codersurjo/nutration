@@ -720,4 +720,8 @@
         padding: 13px;
         text-align: center;
     }
+    .won_daily_t {
+        max-width: 112%;
+        height: 330px;
+    }
 }
