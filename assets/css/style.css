@@ -1126,5 +1126,9 @@ a:hover {
     font-size: 14px;
 }
 
+.header_area_design.bar-navfixed-top.header_area_design1 {
+    position: fixed;
+}
+
 
 /* End New custome css design  */
