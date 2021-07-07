@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
         // animateOut: 'fadeOut',
         // animateIn: 'fadeIn',
         responsiveClass: true,
-        autoplayTimeout: 7000,
+        autoplayTimeout: 2000,
         smartSpeed: 800,
         nav: false,
         dots: false,
